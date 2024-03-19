@@ -10,7 +10,7 @@ To Evaluate these models follow the below instructions,
 ### Setup Instructions
 
 #### Step 1: Clone the Repository
-Use the following command to clone the Mistral repository :
+Use the following command to clone the Evaluation repository :
 ```bash
 git clone https://github.com/SRH-Heidelberg-University/Evaluation.git
 ```
@@ -39,6 +39,8 @@ and
 
 
 Run the `llama_with_ragas.py` file to evaluate mistral model's output
+
+
 
 `Already, the ouput of these files are saved in Excel files ``mistral_consfinal.xlsx`` and ``llama.xlsx`` for Mistral and LLAMA respectively.`
 
