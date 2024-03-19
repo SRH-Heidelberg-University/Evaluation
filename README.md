@@ -47,6 +47,9 @@ Run the `llama_with_ragas.py` file to evaluate mistral model's output
 
 
 ### Step 5: Visulaisation
+Please update the EXCEl file paths in the both the below python files before running them.
+
+
 Run the `mistral_plot.py` and `llama_plot.py` files for visualizing the metrics of Mistral and LLAMA respectively.
 
 
