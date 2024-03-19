@@ -12,7 +12,7 @@ To Evaluate these models follow the below instructions,
 #### Step 1: Clone the Repository
 Use the following command to clone the Mistral repository :
 ```bash
-git clone 
+git clone https://github.com/SRH-Heidelberg-University/Evaluation.git
 ```
 
 #### Step 2: Create a Conda Environment
@@ -33,7 +33,11 @@ pip install -r requirements.txt
 
 
 ### Step 4: Run the evaluations python files
-Run the `mistral_with_ragas.py` file to evaluate mistral model's output and
+Run the `mistral_with_ragas.py` file to evaluate mistral model's output
+
+and
+
+
 Run the `llama_with_ragas.py` file to evaluate mistral model's output
 
 `Already, the ouput of these files are saved in Excel files ``mistral_consfinal.xlsx`` and ``llama.xlsx`` for Mistral and LLAMA respectively.`
