@@ -1,5 +1,5 @@
 # Evaluation Metrics
-We created RAGAS (Retrieval Augmented Generation Assessment), a framework for evaluating retrieval augmented generation (RAG) pipelines for both Mistral 7B and LLAMA 13B.
+We created RAGAS (Retrieval Augmented Generation Assessment), a framework for evaluating retrieval augmented generation (RAG) pipelines for both Mistral 7B and LLAMA 13B. We created dataset for RAGAS with the help of experts for building questions to be asked for chat bot.
 
 # Getting Started
 To Evaluate these models follow the below instructions,
