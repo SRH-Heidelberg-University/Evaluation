@@ -10,10 +10,10 @@ df['faithfulness'] =df['faithfulness'] * 100
 df['answer_correctness'] = df['answer_correctness'] * 100
 df['context_recall'] = df['context_recall'] * 100
 
-print(df['answer_correctness'].mean())
-print(df['context_precision'].mean())
-print(df['context_recall'].mean())
-print(df['faithfulness'].mean())
+print('Average Answer Correctness:',df['answer_correctness'].mean())
+print('Average Context Precision:',df['context_precision'].mean())
+print('Average Context Recall',df['context_recall'].mean())
+print('Average Faithfulness:',df['faithfulness'].mean())
 
 
 plt.plot(df['questions'], df['context_precision'], marker='o', label='Context Precision')
