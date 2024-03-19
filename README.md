@@ -50,6 +50,8 @@ Run the `llama_with_ragas.py` file to evaluate mistral model's output
 Run the `mistral_plot.py` and `llama_plot.py` files for visualizing the metrics of Mistral and LLAMA respectively.
 
 
+The output of these files are uploaded and they are `mistral.png` and `llama.png` 
+
 
 ### Tech Stack:
 - Python: Core programming language
