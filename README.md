@@ -22,7 +22,7 @@ conda create -n evalenv python=3.8 -y
 ```
 Activate the environment:
 ```bash
-conda activate nenv
+conda activate evalenv
 ```
 
 #### Step 3: Install Dependencies
