@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas
 
-df = pandas.read_excel('F:/Masters_documents/Module6_CaseStudy1/Evaluation/Ragas/mistral_consfinal.xlsx')
+df = pandas.read_excel('mistral_consfinal.xlsx')
 
 plt.figure(figsize=(10, 6))
 
