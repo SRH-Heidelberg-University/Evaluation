@@ -38,7 +38,7 @@ Run the `mistral_with_ragas.py` file to evaluate mistral model's output
 and
 
 
-Run the `llama_with_ragas.py` file to evaluate mistral model's output
+Run the `llama_with_ragas.py` file to evaluate llama model's output
 
 
 
