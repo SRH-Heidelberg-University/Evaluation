@@ -16,9 +16,9 @@ git clone
 ```
 
 #### Step 2: Create a Conda Environment
-Navigate to the project directory and use Python 3.8 to build a new Conda environment called `nenv`
+Navigate to the project directory and use Python 3.8 to build a new Conda environment called `evalenv`
 ```bash
-conda create -n nenv python=3.8 -y
+conda create -n evalenv python=3.8 -y
 ```
 Activate the environment:
 ```bash
@@ -30,17 +30,25 @@ Install the required Python packages listed in `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 ```
+
+
 ### Step 4: Run the evaluations python files
 Run the `mistral_with_ragas.py` file to evaluate mistral model's output and
 Run the `llama_with_ragas.py` file to evaluate mistral model's output
 
-`Already, the ouput of these files are saved in Excel files `mistral_consfinal.xlsx` and `llama.xlsx` for Mistral and LLAMA respectively.`
+`Already, the ouput of these files are saved in Excel files ``mistral_consfinal.xlsx`` and ``llama.xlsx`` for Mistral and LLAMA respectively.`
+
+
 
 ### Step 5: Visulaisation
 Run the `mistral_plot.py` and `llama_plot.py` files for visualizing the metrics of Mistral and LLAMA respectively.
 
+
+
 ### Tech Stack:
 - Python: Core programming language
+
+
 
 ### Acknowledgments
 Special thanks to SRH Heidelberg for supporting this project.
